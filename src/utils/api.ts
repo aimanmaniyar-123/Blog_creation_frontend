@@ -51,7 +51,7 @@ class APIClient {
 
   constructor() {
     // Load from localStorage or use default
-    this.baseUrl = this.getStoredValue('api_base_url', 'http://localhost:8000');
+    this.baseUrl = this.getStoredValue('api_base_url', 'https://blog-creation-backend-1.onrender.com');
     this.groqApiKey = this.getStoredValue('groq_api_key', '');
     this.geminiApiKey = this.getStoredValue('gemini_api_key', '');
     this.pexelsApiKey = this.getStoredValue('pexels_api_key', '');
